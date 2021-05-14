@@ -1,3 +1,20 @@
+:root {
+    --bg-active: #89ca6d;
+    --bg-dark: #424242;
+    --bg-light: #ffffff;
+    --bg-danger: #f05356;
+    --header-bg: #f5f5f5;
+    --text-color-primary: #6d6d6d;
+    --text-color-light: #f1f1f1;
+    --text-color-danger: #f05356;
+}
+
+* {
+    font-family: 'Segoe UI';
+    margin: 0;
+    padding: 0;
+}
+
 .top-top-header {
     /* display: none; */
     width: 100%;
@@ -37,6 +54,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 .logo img {

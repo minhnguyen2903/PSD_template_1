@@ -1,17 +1,4 @@
-:root {
-    --bg-active: #7eba64;
-    --bg-dark: #424242;
-    --bg-light: #ffffff;
-    --bg-danger: #f05356;
-    --header-bg: #f5f5f5;
-    --text-color-primary: #6d6d6d;
-    --text-color-light: #f1f1f1;
-    --text-color-danger: #f05356;
-
-}
-
 * {
-    font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
     box-sizing: border-box;

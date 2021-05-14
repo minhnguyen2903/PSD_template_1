@@ -1,0 +1,54 @@
+.flex-box-p {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  background: blue;
+  padding: 10px;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 600px;
+  flex-grow: 3;
+  gap: 1em;
+  margin: 0 auto;
+}
+
+.child {
+  padding: 10px;
+  flex-grow: 1;
+  background: hotpink;
+}
+
+.box-col-3:first-child {
+  background: greenyellow;
+}
+
+.box-col-3 {
+  background: gainsboro;
+}
+
+.another-section {
+  background: pink;
+  display: flex;
+  width: 200px;
+  flex-grow: 1;
+}
+
+.another-section-c {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.item {
+  width: 200px;
+  flex-basis: 200px;
+  /* flex-grow: 1; */
+  background: indianred;
+  padding: 1em;
+}
+
