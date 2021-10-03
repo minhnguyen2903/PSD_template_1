@@ -64,13 +64,13 @@
     </div>
     <div class="credit-card">
         <div class="credit-card__img">
-            <img src="../img/png/images/master-card.png" alt="">
+            <img src="./img/png/images/master-card.png" alt="">
         </div>
         <div class="credit-card__img">
-            <img src="../img/png/images/visa.png" alt="">
+            <img src="./img/png/images/visa.png" alt="">
         </div>
         <div class="credit-card__img">
-            <img src="../img/png/images/american-card.png" alt="">
+            <img src="./img/png/images/american-card.png" alt="">
         </div>
     </div>
 </div>
