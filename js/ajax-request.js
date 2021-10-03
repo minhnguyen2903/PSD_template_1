@@ -27,11 +27,11 @@ function makeRequest(method, url) {
     });
 }
 
-makeRequest("GET", "./header.html").then((data) => {
+makeRequest("GET", "../html/header.html").then((data) => {
     let header = document.createElement("header");
     targetBody.prepend(header);
     header.innerHTML = data;
-    return makeRequest("GET", "./footer.html");
+    return makeRequest("GET", "../html/footer.html");
 }).then((data) => {
     let footer = document.createElement("footer");
     footer.setAttribute("id", "footer");
