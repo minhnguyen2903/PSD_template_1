@@ -94,5 +94,3 @@ function bodyEvent() {
         }
     })
 }
-
-console.log(hehe);
