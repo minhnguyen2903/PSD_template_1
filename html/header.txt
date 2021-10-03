@@ -18,7 +18,7 @@
             <div class="header__logo">
                 <div class="logo">
                     <a href="../index.html">
-                        <img src="../img/png/images/logo.png" alt="" class="img img__logo">
+                        <img src="./img/png/images/logo.png" alt="" class="img img__logo">
                     </a>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <div class="search-bar">
                     <input type="text" class="search-box" placeholder="Search">
                     <button class="btn search__btn--submit btn-primary">
-                        <img src="../img/png/images/search.png" alt="">
+                        <img src="./img/png/images/search.png" alt="">
                         <span>Search</span>
                     </button>
                 </div>
@@ -34,7 +34,7 @@
             <div class="header__cart">
                 <div class="cart">
                     <div class="your-cart">
-                        <img src="../img/png/images/your-card.png" alt="" class="img">
+                        <img src="./img/png/images/your-card.png" alt="" class="img">
                         <span>Your cart <sub class="text-sub">(2 items)</sub></span>
                     </div>
                     <div class="your-bill">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="wish-list">
-                    <img src="../img/png/images/wish-list.png" alt="" class="img">
+                    <img src="./img/png/images/wish-list.png" alt="" class="img">
                     <span>Wish list<sub class="wish-list-count">20</sub></span>
                     
                 </div>
